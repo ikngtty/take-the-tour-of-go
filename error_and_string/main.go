@@ -5,6 +5,7 @@ import "fmt"
 type MyType1 struct {
 	Value int
 }
+
 func (str MyType1) String() string {
 	return "I am a stringer!"
 }
@@ -15,6 +16,7 @@ func (err MyType1) Error() string {
 type MyType2 struct {
 	Value int
 }
+
 func (str MyType2) String() string {
 	return "I am a stringer!"
 }
@@ -22,6 +24,7 @@ func (str MyType2) String() string {
 type MyType3 struct {
 	Value int
 }
+
 func (err MyType3) Error() string {
 	return "I am an error!"
 }
